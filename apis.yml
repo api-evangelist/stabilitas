@@ -1,7 +1,25 @@
 aid: stabilitas
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stabilitas.png
 name: Stabilitas
-description: Stabilitas is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Stabilitas was a Techstars-backed crisis and risk-intelligence startup
+  whose stabilitas.io domain now issues a 301 redirect to crisis24.com/lp/onsolve.
+  The company was absorbed into OnSolve, which is today part of Crisis24 (a GardaWorld
+  company) providing critical event management, mass notification, travel risk, and
+  security intelligence. Stabilitas no longer operates as an independent brand and
+  exposes no public developer API, documentation, SDKs, or developer portal of its
+  own. This profile is retained as an acquired/defunct portfolio lead; there is no
+  standalone API surface left to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/stabilitas/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +27,18 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: crisis24
+x-redirects-to: https://www.crisis24.com/lp/onsolve
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Risk Intelligence
+- Crisis Management
+- Security
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,8 @@ maintainers:
 common:
 - type: Website
   url: https://stabilitas.io/
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
