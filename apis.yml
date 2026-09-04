@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://stabilitas.io/', status: 301, note: 'declared website redirects to https://www.crisis24.com/lp/onsolve — a different registrable domain (stabilitas.io -> crisis24.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stabilitas.png
 name: Stabilitas
 description: Stabilitas was a Techstars-backed crisis and risk-intelligence startup
